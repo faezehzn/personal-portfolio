@@ -1,5 +1,5 @@
 import { useState, useRef } from 'react';
-import { Container, Row, Col, Alert, OverlayTrigger, Tooltip, Overlay } from 'react-bootstrap';
+import { Container, Row, Col, Alert } from 'react-bootstrap';
 import contactImg from '../assets/img/programmer.png';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -51,7 +51,7 @@ const Contact = () => {
   const handleSubmit = async (values) => {
     setButtonText('Sending...');
 
-    await emailjs.sendForm( process.env.REACT_APP_YOUR_SERVICE_ID, process.env.REACT_APP_YOUR_TEMPLATE_ID, form.current, process.env.REACT_APP_YOUR_PUBLIC_KEY)
+    await emailjs.sendForm( process.env.REACT_APP_SERVICE_ID, process.env.REACT_APP_TEMPLATE_ID, form.current, process.env.REACT_APP_PUBLIC_KEY)
     .then((result) => {
       formFormik.resetForm();
       if (result.status === 200 || result.text === "OK") {
