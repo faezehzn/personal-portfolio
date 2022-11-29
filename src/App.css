@@ -266,7 +266,7 @@ nav.navbar .navbar-toggler[aria-expanded='true'] .navbar-toggler-icon {
 
 /************ Banner Css ************/
 .banner {
-  padding: 180px 0 50px 0;
+  padding: 130px 0 50px 0;
 }
 .banner .tagline {
   font-weight: 700;
@@ -284,7 +284,7 @@ nav.navbar .navbar-toggler[aria-expanded='true'] .navbar-toggler-icon {
   text-align: center;
 }
 .banner h1 {
-  font-size: 65px;
+  font-size: 50px;
   font-weight: 700;
   letter-spacing: 0.8px;
   line-height: 1;
@@ -303,7 +303,7 @@ nav.navbar .navbar-toggler[aria-expanded='true'] .navbar-toggler-icon {
   color: #fff;
   font-weight: 700;
   font-size: 20px;
-  margin-top: 60px;
+  margin-top: 25px;
   letter-spacing: 0.8px;
   display: flex;
   align-items: center;
@@ -1031,14 +1031,11 @@ nav.navbar .navbar-toggler[aria-expanded='true'] .navbar-toggler-icon {
   .navbar-collapse {
     margin-bottom: 20px;
   }
-  .banner {
-    padding: 250px 0 0 0;
-  }
   .banner-txt {
     text-align: center;
   }
   .banner-txt button {
-    margin: 60px auto;
+    margin: 30px auto;
   }
   .social-icon-header a {
     display: none;
@@ -1078,9 +1075,6 @@ nav.navbar .navbar-toggler[aria-expanded='true'] .navbar-toggler-icon {
   }
 }
 @media (max-width: 576px) {
-  .banner {
-    padding: 180px 0 0 0;
-  }
   .service-bx {
     border-radius: 50px;
   }
@@ -1132,13 +1126,13 @@ nav.navbar .navbar-toggler[aria-expanded='true'] .navbar-toggler-icon {
 }
 @media (max-width: 415px) {
   .banner {
-    padding: 150px 0;
+    padding: 80px 0;
   }
   .banner h1 {
     font-size: 2rem;
   }
   .banner-txt button {
-    margin: 40px auto;
+    margin: 5px auto;
     padding: 15px 15px;
     font-size: 15px;
   }

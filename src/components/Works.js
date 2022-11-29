@@ -71,11 +71,11 @@ const Works = () => {
                   </Row>
                   <Row className="justify-content-center">
                   {
-                    works.slice(2).map((project, index) => {
+                    works.slice(2).map((work, index) => {
                       return (
                           <Col key={index} xs={12} md={4} >
                           <Work
-                            {...project}
+                            {...work}
                             />
                         </Col>
                       )
